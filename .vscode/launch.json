@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MathOperators",
+            "request": "launch",
+            "mainClass": "basic.MathOperators",
+            "projectName": "java_practice_problems"
+        }
+    ]
+}

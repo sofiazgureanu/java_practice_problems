@@ -9,6 +9,13 @@ public class MathOperators {
     Expected Output :
       110
     */
+    
+      
+    int a = 74;
+    int b = 36;
+    int c;
+    c=a+b;
+    System.out.println(c);
 
     // 2. Write a Java program to divide two numbers and print on the screen.
     /*
@@ -17,6 +24,12 @@ public class MathOperators {
     Expected Output :
       16
     */
+
+    int d = 50;
+    int e = 3;
+    int f;
+    f=d/e;
+    System.out.println(f);
 
     // 3. Write a Java program to print the result of the following operations.
 
@@ -32,5 +45,38 @@ public class MathOperators {
       19
       13
     */
+    //a. -5 + 8 * 6
+    int g= -5;
+    int h= 8;
+    int i= 6;
+    int j;
+    j = g+h*i;
+    System.out.println(j);
+    //b. (55+9) % 9
+    int k=55;
+    int l=9;
+    int m=9;
+    int n;
+    n=(k+l)%m;
+    System.out.println(n);
+    //c. 20 + -3*5 / 8
+    int o=20;
+    int p= -3;
+    int q= 5;
+    int r=8;
+    int s;
+    s= o + p * q/r;
+    System.out.println(s);
+    //d. 5 + 15 / 3 * 2 - 8 % 3
+    int t=5;
+    int u=15;
+    int v= 3;
+    int w=2;
+    int x=8;
+    int y=3;
+    int z;
+    z=t+u/v*w-x%y;
+    System.out.println(z);
+
   }
 }
