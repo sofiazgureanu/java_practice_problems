@@ -10,15 +10,16 @@ public class IfStatements {
     Expected Output:
       false
     */
-    // Scanner myNum = new Scanner(System.in);
-    // int num = myNum.nextInt();
-    // System.out.println("Enter number");
-    // if (num>2){
-    //   System.out.println("greter than 2");
     
-    // } else{
-    //   System.out.println("not greter than 2");
-    // }
+    Scanner myNum = new Scanner(System.in);
+    int num = myNum.nextInt();
+    System.out.println("Enter number");
+    if (num>2){
+      System.out.println("greter than 2");
+    
+    } else{
+      System.out.println("not greter than 2");
+    }
 
     // 2. Get number as input, print whether the number is even
     /*
@@ -30,14 +31,14 @@ public class IfStatements {
       false
     */
     
-    // Scanner myNum2 = new Scanner(System.in);
-    // int num1 = myNum2.nextInt();
-    // System.out.println("Enter number");
-    // if(num1%2==0){
-    //   System.out.println("even");
-    // } else{
-    //   System.out.println("odd");
-    // }
+    Scanner myNum2 = new Scanner(System.in);
+    int num1 = myNum2.nextInt();
+    System.out.println("Enter number");
+    if(num1%2==0){
+      System.out.println("even");
+    } else{
+      System.out.println("odd");
+    }
 
     // 3. Get 2 numbers as input, print whether the 2 numbers are equal to eachother
     /*
