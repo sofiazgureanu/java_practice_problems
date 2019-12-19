@@ -26,9 +26,9 @@ public class RandomNumbers {
 
     // 2. Generate a random number between 1 and 3. print that number.
     Random rand1 = new Random();
-    int randInt1 = rand1.nextInt(3); 
-    randInt1 = (randInt1 + 1);
-    System.out.println(randInt1);
+    int randInt4 = rand1.nextInt(3); 
+    randInt4 = (randInt4 + 1);
+    System.out.println(randInt4);
      
     // 3. Mental Health Therapist program:
     // Ask usere for their name?
@@ -59,25 +59,25 @@ public class RandomNumbers {
     int randInt3 = random.nextInt(3); 
     System.out.println(randInt3);
     if (move == randInt3){
-      System.out.println("It's a tie");
+      System.out.println("It's a tie, oof");
     }
     if(move==0 && randInt3==1){
-      System.out.println("You loose!");
+      System.out.println("You loose! NYEHEHEHEHEHEHE");
     }
     if(move==0 && randInt3==2){
-      System.out.println("You win!");
+      System.out.println("You win! Congrats");
     }
     if(move==1 && randInt3==0){
-      System.out.println("You win!");
+      System.out.println("You win! Congrats");
     }
     if(move==1 && randInt3==2){
-      System.out.println("You loose!");
+      System.out.println("You loose! NYEHEHEHEHEHEHE");
     }
     if(move==2 && randInt3==0){
-      System.out.println("You loose!");
+      System.out.println("You loose! NYEHEHEHEHEHEHE");
     }
     if(move==2 && randInt3==1){
-      System.out.println("You win!");
+      System.out.println("You win! Congrats");
     }
 
    }
