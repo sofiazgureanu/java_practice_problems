@@ -19,20 +19,20 @@ public class RandomNumbers {
   public static void main(String[] args) throws Exception {
     // testProblem();
 
-    // 1. Generate a random number and print to screen.
+  //   // 1. Generate a random number and print to screen.
     Random rand = new Random();
     int randInt1 = rand.nextInt(100); 
     System.out.println(randInt1);
 
-    // 2. Generate a random number between 1 and 3. print that number.
+  //   // 2. Generate a random number between 1 and 3. print that number.
     Random rand1 = new Random();
     int randInt4 = rand1.nextInt(3); 
     randInt4 = (randInt4 + 1);
     System.out.println(randInt4);
      
-    // 3. Mental Health Therapist program:
-    // Ask usere for their name?
-    // random print "I believe in you!" or "You suck!"
+  //   // 3. Mental Health Therapist program:
+  //   // Ask usere for their name?
+  //   // random print "I believe in you!" or "You suck!"
     
     Scanner myName = new Scanner(System.in);
     System.out.println("What is your name?");
@@ -45,11 +45,11 @@ public class RandomNumbers {
       System.out.println("You suck!");
     }
 
-    // 4. Get user input, print matching string to number
-    // 1 -> "rock", 2 -> "paper", 3 -> "scissors"
+  //   // 4. Get user input, print matching string to number
+  //   // 1 -> "rock", 2 -> "paper", 3 -> "scissors"
     
     Scanner myMove = new Scanner(System.in);
-    System.out.println("Press a number from 0 to 2 to start");
+    System.out.println("Press any number from 0 to 2 to start");
     int move = myMove.nextInt();
 
     while (move <3){
@@ -85,18 +85,13 @@ public class RandomNumbers {
     // 5. Set a seed "seed value".
     // Randomly generate a number.
     // Run program 4 times to ensure that it generates the same number each time.
-    
+
+     long s = 24; 
     Random r = new Random(); 
-  
+    r.setSeed(s);
     
     System.out.println("Random Integer value : " + r.nextInt()); 
 
-    
-    long s = 24; 
-
-    r.setSeed(s); 
-
-    
     System.out.println("Random Integer value : " + r.nextInt()); 
   }
 }
